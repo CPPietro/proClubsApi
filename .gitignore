@@ -206,7 +206,7 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-.club_matches.csv
-.matches_readable.json
-.most_recent_matches.csv
-.newest_match.json
+club_matches.csv
+matches_readable.json
+most_recent_matches.csv
+newest_match.json
