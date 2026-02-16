@@ -54,5 +54,5 @@ class GoogleSheetsPayload:
 
 if __name__ == "__main__":
     # Example payload
-    sender = GoogleSheetsPayload("PengiunPickaxe Goals 2")
+    sender = GoogleSheetsPayload("SnakePro676 Redcards 15")
     sender.send()
