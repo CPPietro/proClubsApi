@@ -1,9 +1,6 @@
 import requests
 from typing import Optional
 
-#! CLASS ONLY
-# Cannot be ran solo
-
 class GoogleSheetsPayload:
     """Send player stat payloads to Google Apps Script."""
     
@@ -55,3 +52,7 @@ class GoogleSheetsPayload:
         response.raise_for_status()
         return response
 
+if __name__ == "__main__":
+    # Example payload
+    sender = GoogleSheetsPayload("PengiunPickaxe Goals 2")
+    sender.send()
