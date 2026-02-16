@@ -33,7 +33,10 @@ def main():
         # Check if there are new matches
         if match_parser.check_for_new_matches():
             print("New match found! Parsing stats...")
-            match_parser.main()
+            
+            # Update and export FIRST so parse_stats() reads fresh data
+            match_parser.update_most_recent_matches()
+            match_parser.export_most_recent_match_to_json("newest_match.json")
             
             payloads = parser.parse_stats()
             for payload in payloads:
@@ -41,7 +44,7 @@ def main():
                 response = sender.send()
                 print(f"Sent payload: {payload} | Response: {response.text}")
         
-        time.sleep(60)  # Sleep for 60 seconds before checking again
+        time.sleep(30)  # Sleep for 60 seconds before checking again
 
 if __name__ == "__main__":
     main()

@@ -111,9 +111,9 @@ class MatchPlayerParser:
                     goals=int(player_stats.get('goals', 0)),
                     assists=int(player_stats.get('assists', 0)),
                     shots=int(player_stats.get('shots', 0)),
-                    passes=int(player_stats.get('passes', 0)),
+                    passes=int(player_stats.get('passesmade', 0)),
                     pass_attempts=int(player_stats.get('passattempts', 0)),
-                    tackles=int(player_stats.get('tackles', 0)),
+                    tackles=int(player_stats.get('tacklesmade', 0)),
                     tackle_attempts=int(player_stats.get('tackleattempts', 0)),
                     saves=int(player_stats.get('saves', 0)),
                     seconds_played=int(player_stats.get('secondsPlayed', 0)),
@@ -351,9 +351,9 @@ class MatchPlayerParser:
         matches = self.parse_csv()
         print(f"✓ Parsed {len(matches)} matches")
         has_new_matches = self.check_for_new_matches()
-        if has_new_matches:
-            self.update_most_recent_matches()
-            self.export_most_recent_match_to_json("newest_match.json")
+        #if has_new_matches:
+        #    self.update_most_recent_matches()
+        #    self.export_most_recent_match_to_json("newest_match.json")
 
         self.export_matches_to_json("matches_readable.json")
 
