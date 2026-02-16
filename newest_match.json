@@ -1,0 +1,81 @@
+[
+  {
+    "match_id": "456767663566677",
+    "timestamp": "2026-02-16 15:25:09",
+    "time_ago": "{'number': 13, 'unit': 'hours'}",
+    "clubs": {
+      "3439844": [
+        {
+          "player_id": "1004591931622",
+          "player_name": "PengiunPickaxe",
+          "position": "midfielder",
+          "rating": 7.6,
+          "goals": 0,
+          "assists": 4,
+          "shots": 0,
+          "passes": 0,
+          "pass_attempts": 0,
+          "tackles": 0,
+          "tackle_attempts": 0,
+          "saves": 0,
+          "seconds_played": 5321,
+          "score": 2,
+          "redcards": 0
+        },
+        {
+          "player_id": "1005318586134",
+          "player_name": "SnakePro676",
+          "position": "forward",
+          "rating": 3.0,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 0,
+          "pass_attempts": 0,
+          "tackles": 0,
+          "tackle_attempts": 0,
+          "saves": 0,
+          "seconds_played": 0,
+          "score": 2,
+          "redcards": 0
+        }
+      ],
+      "56396": [
+        {
+          "player_id": "1005032070510",
+          "player_name": "Mrbeanisfunny",
+          "position": "forward",
+          "rating": 7.7,
+          "goals": 2,
+          "assists": 0,
+          "shots": 9,
+          "passes": 0,
+          "pass_attempts": 9,
+          "tackles": 0,
+          "tackle_attempts": 9,
+          "saves": 0,
+          "seconds_played": 5334,
+          "score": 5,
+          "redcards": 0
+        },
+        {
+          "player_id": "1007872873635",
+          "player_name": "L3bzjay211",
+          "position": "midfielder",
+          "rating": 10.0,
+          "goals": 2,
+          "assists": 2,
+          "shots": 4,
+          "passes": 0,
+          "pass_attempts": 48,
+          "tackles": 0,
+          "tackle_attempts": 1,
+          "saves": 0,
+          "seconds_played": 5334,
+          "score": 5,
+          "redcards": 0
+        }
+      ]
+    }
+  }
+]
